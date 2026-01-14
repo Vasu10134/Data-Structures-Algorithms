@@ -1,7 +1,4 @@
-## 169. Majority Element  
-  
-### Given an array nums of size n, return the majority element.  
-### The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.  
+## Majority Element  
   
 Method 1 :  
 Using Boyer's Moore Algorithm  
@@ -45,9 +42,9 @@ public:
     }  
 };
 ```
-
+  
 Method 3 :  
-comparing nums[i] with nums[j], increment count  
+Comparing nums[i] with nums[j], increment count  
   
 ```cpp  
 class Solution  
@@ -78,8 +75,8 @@ public:
 ```
   
 Method 4 :  
-Using Maps (Unordered Maps)
-
+Using Maps (Unordered Maps)  
+  
 ```cpp
 class Solution
 {
